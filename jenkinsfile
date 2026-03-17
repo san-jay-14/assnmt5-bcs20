@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/san-jay-14/assnmt5-bcs20.git'
+                git branch: 'main', url: 'https://github.com/san-jay-14/assnmt5-bcs20.git'
             }
         }
 
